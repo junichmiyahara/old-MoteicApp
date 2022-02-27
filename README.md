@@ -1,24 +1,67 @@
-# README
+# Moteic
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+このサービスはエンジニアやIT関連で働く男性と女性をつなげるマッチングサービスです。
 
-Things you may want to cover:
+エンジニアの市場価値は年々高くなってる中でエンジニアやIT関連の人と結婚したい女性が増えてきています。
 
-* Ruby version
+そんな中でエンジニア（IT関連の男性）限定のマッチングアプリを作ることで少しでも女性の方でIT関連の人との出会いの場を提供できたらいいなと思い作ろうと思いました。
 
-* System dependencies
+またエンジニアは今でこそ増えてきてカジュアルなイメージがありますが真面目で恋愛に奥手な人が多いことも事実です。
 
-* Configuration
+そのためエンジニア男性に向けても需要があるサービスかなと感じています。
 
-* Database creation
+このサービスを通じて１組でも幸せなカップルが増えるといいなと思います。
 
-* Database initialization
+# DEMO
 
-* How to run the test suite
+"Moteic"の魅力が直感的に伝えわるデモ動画や図解を載せる（後日）
 
-* Services (job queues, cache servers, search engines, etc.)
+# Features
 
-* Deployment instructions
+このサービスの特徴は需要が増えているエンジニアやIT関連の男性を専門としたマッチングサービスです。
 
-* ...
+
+# Requirement
+
+* Rails 6.1.4
+* ruby 3.0.2
+
+# Installation
+Requirementで列挙したライブラリなどのインストール方法を説明する。
+
+一応やり方を記載しましたが必ず各自で確認しながらインストールお願いします。
+
+cdでディレクトリに移動する
+
+bundle install(gemファイルのインストール)
+
+エラー出た場合（Rubyのバージョン差異）
+
+rbenv install -l（rbenvでインストール可能なrubyのバージョン一覧を調べる、インストール可能欄にない場合は3.0.2以上のものをダウンロードしてください、もしくはバージョンを指定してインストール）
+
+rbenv install 3.0.2(ruby３.０.２のバージョンを指定してインストール)
+
+rbenv global 3.0.2(rubyのバージョンを３.0.２に切り替える)
+
+rbenv rehash（適切なバージョンのコマンドを利用可能にする）
+
+ruby -v(3.0.2)になってるかを確認
+
+# Usage
+
+DEMOの実行方法など、"Moteic"の基本的な使い方を説明する
+
+# Note
+
+注意点などがあれば書く
+
+# Author
+
+作成情報を列挙する
+
+* 作成者　@Rairu_blog
+* 所属 
+* E-mail junich0911@gmail.com
+
+# License
+ライセンスを明示する
