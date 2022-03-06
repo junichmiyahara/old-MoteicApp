@@ -45,6 +45,7 @@ rbenv install -l（rbenvでインストール可能なrubyのバージョン一�
 rbenv install 3.0.2(ruby３.０.２のバージョンを指定してインストール)
 
 rbenv global 3.0.2(rubyのバージョンを３.0.２に切り替える)
+
 rbenv local 3.0.2(カレントディレクトリのみ３．０．２に適応)
 
 rbenv rehash（適切なバージョンのコマンドを利用可能にする）
