@@ -25,6 +25,7 @@
 
 * Rails 6.1.4
 * ruby 3.0.2
+* vue.js
 
 # Installation
 Requirementで列挙したライブラリなどのインストール方法を説明する。
