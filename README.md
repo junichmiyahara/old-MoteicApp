@@ -23,7 +23,7 @@
 
 # Requirement
 
-* Rails 6.1.4
+* Rails 6.1.4.6
 * ruby 3.0.2
 * vue.js
 
