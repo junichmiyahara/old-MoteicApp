@@ -70,3 +70,7 @@ DEMOの実行方法など、"Moteic"の基本的な使い方を説明する
 
 # License
 ライセンスを明示する
+
+# ER図
+<img width="750" alt="スクリーンショット 2022-03-07 15 27 01" src="https://user-images.githubusercontent.com/85437356/156980841-1afeca4f-5fd4-4356-9e6e-baa6d4edd30c.png">
+
