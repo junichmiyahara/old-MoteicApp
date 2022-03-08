@@ -17,6 +17,9 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  username: RailsApp # 追加
+  password: # 追加
+  host: localhost # 追加
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
@@ -82,5 +85,5 @@ test:
 production:
   <<: *default
   database: MoteicApp_production
-  username: MoteicApp
+  username: RailsApp
   password: <%= ENV['MOTEICAPP_DATABASE_PASSWORD'] %>
