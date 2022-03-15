@@ -1,6 +1,14 @@
 $color-pink: rgba(254, 214, 227, 0.66);
-$small-color-bubble: linear-gradient(to bottom, rgba(198, 168, 237, 0.237) 0%, rgba(58, 206, 200, 0.283) 99.99%, rgba(50, 204, 197, 0.1) 100%);
-$big-color-bubble: linear-gradient(180deg, rgba(231, 100, 218, 0.352) 0%, rgba(58, 206, 200, 0.266) 99.99%, rgba(50, 204, 197, 0) 100%);
+$color-bubble: linear-gradient(to bottom, rgba(198, 168, 237, 0.237) 0%, rgba(58, 206, 200, 0.283) 99.99%, rgba(50, 204, 197, 0.1) 100%);
+@mixin color-bubble($size: 350px, $top: 0px, $left: 100px){
+  background: $color-bubble;
+  border-radius: 50%;
+  position: absolute;
+  width: $size;
+  height: $size;
+  top : $top;
+  left: $left;
+}
 .page-container{
   text-align: center;
 }
@@ -14,20 +22,8 @@ $big-color-bubble: linear-gradient(180deg, rgba(231, 100, 218, 0.352) 0%, rgba(5
   min-width: 500px;
 }
 .small-color-bubble{
-  position: absolute;
-  top :0px;
-  left: 100px;
-  width: 350px;
-  height: 350px;
-  background: $small-color-bubble;
-  border-radius: 50%;
+  @include color-bubble;
 }
 .big-color-bubble{
-  position: absolute;
-  width: 480px;
-  height: 480px;
-  right: -50px;
-  top: -200px;
-  background: $big-color-bubble;
-  border-radius: 50%;
+  @include color-bubble(480px, -200px, 1000px);
 }
